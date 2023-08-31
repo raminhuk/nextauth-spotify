@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AuthProvider>
           <Navbar />
-          <main className="flex justify-center items-start p-6 min-h-screen">
+          <main className="flex justify-center items-start p-6">
             {children}
           </main>
         </AuthProvider>
